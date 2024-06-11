@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header{
+    background-color: rgb(33, 33, 33);
+    color: rgb(211, 235, 255);
+    width: 100%;
+    max-width: 70vw;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.notes{
+    background-color: aquamarine;
+    width: 90vw;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.note{
+    aspect-ratio: 1 / 1;
+    /* height: 210px; */
+    width: 16%;
+    margin: 10px;
+    background-color: black;
+}
