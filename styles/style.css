@@ -88,3 +88,45 @@ h1{
 .note-34{background-color: palevioletred;  transform:rotate(-3deg);}
 .note-35{background-color: aqua; transform:rotate(-2deg);}
 .note-36{background-color: cornflowerblue;}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .notes{
+        width: 100vw;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .header{
+        height: 70px;
+    }
+    .ext-1{
+        display: none;
+    }
+    .note{
+        width: 25%;
+    }
+}
+@media (max-width:375px) {
+    
+    h1{
+        font-size: 30px;
+    }
+    .header{
+        height: 60px;
+    }
+    .ext-2{
+        display: none;
+    }
+    .note{
+        width: 33%;
+    }
+}
