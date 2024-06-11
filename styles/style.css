@@ -7,6 +7,7 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    background-color: crimson;
 }
 .header{
     background-color: rgb(33, 33, 33);
@@ -25,7 +26,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .notes{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 90vw;
 }
 .row{
@@ -38,5 +39,52 @@ h1{
     /* height: 210px; */
     width: 16%;
     margin: 10px;
-    background-color: black;
+    background-color: wheat;
+    resize: none;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: monospace;
+    border: none;
+    box-shadow: 0px 20px 10px -15px black;
+    
 }
+.note-1{ background-color: yellow; }
+.note-2{background-color: burlywood; transform:rotate(-2deg);}
+.note-3{background-color: aqua;  transform:rotate(3deg);}
+.note-4{background-color: palevioletred;  transform:rotate(-3deg);}
+.note-5{ background-color: yellow; }
+.note-6{}
+.note-7{background-color: palevioletred;  transform:rotate(-3deg);}
+.note-8{background-color: burlywood;}
+.note-9{background-color: cornflowerblue;  transform:rotate(3deg);}
+.note-10{background-color: aqua;}
+.note-11{background-color: cornflowerblue;}
+.note-12{background-color: burlywood; transform:rotate(-2deg);}
+.note-13{ background-color: yellow ; transform:rotate(3deg); }
+.note-14{}
+.note-15{background-color: palevioletred;  transform:rotate(-3deg);}
+.note-16{background-color: aqua;}
+.note-17{}
+.note-18{background-color: burlywood;}
+.note-19{}
+.note-20{background-color: palevioletred;  transform:rotate(-3deg);}
+.note-21{background-color: aqua;}
+.note-22{  transform:rotate(3deg);}
+.note-23{background-color: cornflowerblue;}
+.note-24{ background-color: yellow; }
+.note-25{}
+.note-26{background-color: palevioletred;  transform:rotate(-3deg);}
+.note-27{background-color: burlywood; transform:rotate(-2deg);}
+.note-28{background-color: cornflowerblue; transform:rotate(-2deg);}
+.note-29{ background-color: yellow ; transform:rotate(3deg); }
+.note-30{background-color: cornflowerblue;}
+.note-31{background-color: aqua;}
+.note-32{ background-color: yellow; }
+.note-33{}
+.note-34{background-color: palevioletred;  transform:rotate(-3deg);}
+.note-35{background-color: aqua; transform:rotate(-2deg);}
+.note-36{background-color: cornflowerblue;}
