@@ -13,16 +13,15 @@
     background-color: rgb(33, 33, 33);
     color: rgb(211, 235, 255);
     width: 100%;
-    max-width: 70vw;
+    max-width: 60vw;
     height: 100px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 25px 0px;
-}
-h1{
-    font-size: 60px;
+    padding: 0px 80px;
+    font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .notes{
@@ -102,25 +101,26 @@ h1{
     .notes{
         width: 100vw;
     }
-    h1{
-        font-size: 40px;
-    }
     .header{
+        font-size: 30px;
         height: 70px;
+        padding: 0 30px;
+        min-width: 80%;
+
     }
     .ext-1{
         display: none;
     }
     .note{
         width: 25%;
+        font-size: 14px;
     }
 }
 @media (max-width:375px) {
     
-    h1{
-        font-size: 30px;
-    }
     .header{
+        font-size: 20px;
+        min-width: 80%;
         height: 60px;
     }
     .ext-2{
@@ -128,5 +128,6 @@ h1{
     }
     .note{
         width: 33%;
+        font-size: 14px;
     }
 }
